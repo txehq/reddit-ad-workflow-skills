@@ -4,3 +4,21 @@ __pycache__/
 .DS_Store
 *.sqlite
 *.sqlite3
+
+# Local secrets, dependencies, and generated files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.*
+.venv/
+venv/
+node_modules/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.cache/
+*.log

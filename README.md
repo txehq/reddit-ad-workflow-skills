@@ -235,7 +235,7 @@ python3 skills/ad-campaign-archive/scripts/package_assets.py \
 将本仓库克隆到本地后，可通过软链接（Symbolic Link，指向原文件夹的快捷方式）将所需技能挂载到 Claude Code、Codex 或 Antigravity 的技能目录中：
 
 ```bash
-git clone https://github.com/ezra-y/reddit-ad-workflow-skills.git
+git clone https://github.com/txehq/reddit-ad-workflow-skills.git
 
 # 挂载到全局技能目录（按你使用的工具路径选择）
 ln -s "$(pwd)/reddit-ad-workflow-skills/skills/reddit-community-research" ~/.claude/skills/reddit-community-research
